@@ -25,7 +25,7 @@ The actual specs in my AI demand gen team run 1,000+ lines each. This is the bon
 Where this employee sits today, on a 1–4 scale:
 
 - **Level 1: Assistant.** Some skills built. You still drive most workflows.
-- **Level 2: Assistant+.** Several skills shipping. Some workflows chained.
+- **Level 2: Operator.** Several skills shipping. Some workflows chained.
 - **Level 3: Expert.** Most workflows automated. You approve, don't execute.
 - **Level 4: Employee.** Full workflow ownership. You manage by exception.
 
