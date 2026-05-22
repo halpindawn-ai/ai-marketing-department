@@ -163,36 +163,28 @@ This section is the goal post. If you don't know what Level 4 looks like for an 
 
 ---
 
-## 10. System prompt
+## 10. Operating manual (three-file shape)
 
-The operating manual for this employee. Auto-loads before any task in their scope. Defines identity, scope, tools, rules, and reporting line.
+The operating manual for this employee. Auto-loads before any task in their scope.
+
+I used to write this as a single system-prompt block. In practice that block grows past 1,000 lines and becomes unreadable, and editing one quarterly detail means re-reading the whole thing. The shape I use now splits it into three files that auto-load together:
 
 ```
-You are the [Employee Name] for [Company / Function].
-
-Your scope:
-- [Responsibility 1]
-- [Responsibility 2]
-- [Responsibility 3]
-
-Your tools:
-Operators: [list of skill names]
-Experts: [list of skill names]
-References: [list of skill names]
-
-Your infrastructure (outside Claude):
-- [System 1: what it is, what you do with it]
-- [System 2]
-
-Your rules:
-- [Specific guardrail 1. Be concrete. "Never recommend a budget increase before confirmed closed-won revenue" is better than "be careful with budgets."]
-- [Specific guardrail 2]
-- [Specific guardrail 3]
-
-You report to [Human Manager]. They approve [list of decisions that stay human].
+skills/[your-prefix]-[employee-name]/
+  SKILL.md              ← the router
+  structural-rules.md   ← permanent guardrails
+  commanders-intent.md  ← quarterly state
 ```
 
-Save this as a Claude Code skill named `[your-prefix]-[employee-name]`. Set it to auto-load before any task that falls in this employee's scope.
+**`SKILL.md` (router).** Identity, skill inventory and routing table, routing rules ("one intent, one delegation," "never substitute," approval gates), workflow pipelines, the handoff protocol, and a standard output shape for reporting back. Does no execution work itself — it delegates to the operators, experts, and references from Section 3.
+
+**`structural-rules.md` (permanent guardrails).** Primary optimization target, audit/diagnostic order, compliance rules, operating rules (numbered and additive so new rules never reorder old ones), deliverable structure, evaluation frameworks, decision triggers, permanent corrections. Lifespan test: if it would still be true in two quarters with a different roadmap and a different channel mix, it goes here.
+
+**`commanders-intent.md` (quarterly state).** Current maturity level (from Section 2), current posture (which channels, programs, or paths are active vs. under evaluation vs. declined), baseline corrections, the current quarter's build roadmap (from Section 11), planned skill additions (from Section 8), and the current Level N+1 target. Always dated at the top. This is the file that goes stale fastest.
+
+Why split it: you can change quarterly intent without touching the rules, the router stays thin, and each layer is independently legible — someone can read just the rules without parsing routing logic. You can't get those properties from one big block. It has to be three files.
+
+Set the router to auto-load before any task in the employee's scope. The two supporting files load via a "Read first" block at the top of the router.
 
 ---
 
@@ -217,7 +209,8 @@ Don't try to close every gap at once. Sequence them by leverage. The first phase
 2. **Fill in the brackets.** Don't worry about getting it right the first time. The template is meant to be iterated on.
 3. **Write the org chart from the specs, not the other way around.** The handoffs in Section 7 are where the cross-employee structure emerges. If you draw an org chart first, you'll back-fill it with assumptions. If you write the specs first, the chart writes itself.
 4. **Use Section 8 (gap analysis) as your build roadmap.** Don't try to close every gap at once. Sequence by leverage.
-5. **Build the operating-manual skill from Section 10.** This is the skill that auto-loads before any task in the employee's scope. It's the difference between "AI that knows the role" and "AI that has to be told the role every time."
+5. **Build the operating-manual skill from Section 10.** The three-file shape — router, permanent rules, quarterly intent — is what makes the spec actually run. It's the difference between "AI that knows the role" and "AI that has to be told the role every time."
+6. **Treat sections 2, 8, and 11 as quarterly.** Maturity level, gap priorities, and the build plan rotate as the work moves. Everything else (identity, skill inventory, workflows, handoffs, Level 4) is stable. The three-file shape in Section 10 mirrors that cadence — quarterly state lives in its own file so you can update it without touching the rules.
 
 ---
 
