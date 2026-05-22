@@ -1,6 +1,6 @@
 # AI Employee Role Spec Template
 
-A fork-able template for scoping AI employees in your function. Based on the PMM framework: every employee has operators, experts, and references.
+A copy-and-use template for scoping AI employees in your function. Based on the PMM framework: every employee has operators, experts, and references.
 
 This is a demo version. Fill in the bracketed placeholders with your own answers. Copy this file, rename it for the employee you're scoping, and start writing. Most of mine took 2–3 drafts before they felt right.
 
@@ -227,4 +227,4 @@ This template is the work-product behind every employee in **The AI Marketing De
 
 The format borrows from PMM frameworks (employees as roles with specs, not as tools) and from product documentation conventions (gaps and phases as first-class structure). It's intentionally heavier than a one-page role description. Lighter docs end up being aspirational. This one stays honest because every section forces a concrete answer.
 
-If you fork this, I'd love to see what you're building. Reply to any issue of the newsletter and tell me what you're scoping.
+If you use this for your own team, I'd love to see what you're building. Reply to any issue of the newsletter and tell me what you're scoping.
