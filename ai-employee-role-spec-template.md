@@ -63,8 +63,6 @@ The same skills as Section 3, organized by role for a faster scan.
 
 `[skill-name]` → `[Outcome it produces]`
 
-`[skill-name]` → `[Outcome it produces]`
-
 ### Experts
 
 `[skill-name]` → `[Judgment it provides]`
