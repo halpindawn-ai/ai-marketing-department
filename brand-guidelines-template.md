@@ -28,14 +28,6 @@ The foundation. Who you are and what you stand for. Everything else is downstrea
 
 **Brand values:** `[3 to 5 values that guide decisions]`
 
-*Illustrative example:*
-
-> **Mission:** Make healthcare email compliance simple enough that the smallest practice can ship it.
->
-> **Positioning:** The HIPAA compliant email security platform for healthcare organizations that want enterprise-grade compliance without enterprise complexity.
->
-> **Brand values:** Plainspoken. Practical. Customer-led. Quietly thorough.
-
 ---
 
 ## 2. Voice
@@ -52,18 +44,6 @@ How your brand sounds in writing. List the qualities you aim for and the qualiti
 - `[anti-adjective]`: `[why we avoid this]`
 
 If you have a separate writing standards file, voice can stay short here and reference there for depth.
-
-*Illustrative example:*
-
-> We sound:
-> - Plainspoken: short sentences, real words, no jargon
-> - Confident without bragging: state facts, let the reader decide
-> - Customer-respectful: assume the reader is smart and busy
->
-> We don't sound:
-> - Corporate: no "leveraging synergies," no "transformative solutions"
-> - Performatively casual: no fake informality, no exclamation overload
-> - Salesy: no "act now" pressure language
 
 ---
 
@@ -89,23 +69,6 @@ The brand's visual rules. Be specific. Hex codes, font names, sizes, weights. Th
 - Minimum size: `[pixels or inches]`
 - Clear space: `[how much empty space around the logo]`
 
-*Illustrative example:*
-
-> Primary colors:
-> - Brand navy: #0A2540 (headers, primary backgrounds)
-> - Action gold: #C5A572 (CTAs, accents)
-> - Off-white: #F8F7F4 (page backgrounds, light surfaces)
->
-> Typography:
-> - Headlines: DM Serif Display, weight 400
-> - Body: DM Sans, weights 400 and 500
-> - UI: DM Sans, weight 500
->
-> Logo:
-> - Primary: full wordmark with icon, in navy or off-white
-> - Minimum size: 80px wide for digital, 0.75 inch for print
-> - Clear space: at least the height of the icon on all sides
-
 ---
 
 ## 4. Imagery rules
@@ -118,18 +81,6 @@ What kind of images your brand uses and what it doesn't. Many brands skip this s
 **Imagery we don't use:**
 - `[Type]`: `[why we avoid this]`
 
-*Illustrative example:*
-
-> We use:
-> - Real customer photos: when we have permission, in case studies
-> - Branded illustrations: in landing pages and decks, all in our color palette
-> - Abstract gradient backgrounds: for blog feature images, no people
->
-> We don't use:
-> - Stock photos of business people shaking hands or pointing at screens
-> - Photography we don't own the rights to
-> - Illustrations from generic libraries that get used everywhere
-
 ---
 
 ## 5. Design patterns
@@ -139,14 +90,6 @@ The recurring visual structures that hold the brand together. Cards, buttons, hi
 **`[Pattern name]`:** `[when it's used, what it looks like]`
 
 **`[Pattern name]`:** `[when it's used, what it looks like]`
-
-*Illustrative example:*
-
-> **Stat callout cards:** for highlighting research findings. Off-white background, navy headline (DM Serif), gold accent number. Used in reports, blog posts, and data sheets.
->
-> **CTA buttons:** gold background, navy text, rounded corners. Always sentence case. Never "Click here." Always action-coded ("Read the report").
->
-> **Section spacing:** 4rem between sections on web, 2rem in dense documents. Generous but not airy.
 
 ---
 
@@ -158,14 +101,6 @@ Anti-patterns. The specific visual or verbal moves that immediately read as off-
 
 `[Anti-pattern 2]`: `[why bad]`
 
-*Illustrative example:*
-
-> - **Stock business photography.** It reads as generic. We use real customers, real illustrations, or no people at all.
-> - **All-caps headlines for emphasis.** Reserved for tiny labels (eyebrow text). Headlines are sentence case in our brand's display font.
-> - **Emoji in body copy.** Casual context only (Slack, internal). Never in marketing assets.
-> - **Gradient text effects.** Reads as 2018 startup. Solid colors only.
-> - **More than two fonts in one asset.** Display font plus body font; that's it.
-
 ---
 
 ## 7. Reference examples
@@ -174,14 +109,6 @@ Links to live assets that exemplify on-brand work. Update this section over time
 
 - `[Asset type]`: `[link or file location]`
 - `[Asset type]`: `[link or file location]`
-
-*Illustrative example:*
-
-> - Landing page (good): paubox.com/some-page
-> - Report cover (good): link to PDF
-> - Blog feature image (good): link to PNG
-> - Webinar deck slide (good): link to slide
-> - Social graphic (good): link to PNG
 
 ---
 
