@@ -26,12 +26,6 @@ The one-paragraph version. Who you sell to in plain language.
 
 **Why this ICP:** `[Why this customer profile is the best fit for what you sell]`
 
-*Illustrative example:*
-
-> **Primary ICP:** Mid-market healthcare organizations (50 to 500 employees) that handle PHI via email and need HIPAA compliant infrastructure without a dedicated IT team.
->
-> **Why this ICP:** They have the regulatory pressure that creates urgency, the scale that justifies our pricing, and the resource constraints that make our "compliance without complexity" positioning resonate.
-
 ---
 
 ## 2. Firmographic criteria
@@ -47,18 +41,6 @@ The objective filters that define whether a company is in your ICP. The data poi
 **Maturity stage:** `[Growth stage, year founded, public/private]`
 
 **Tech stack indicators:** `[Technologies that signal they're a fit]`
-
-*Illustrative example:*
-
-> Company size: 50 to 500 employees, $10M to $100M annual revenue
->
-> Industry: healthcare delivery (hospitals, ambulatory clinics, behavioral health, dental groups). Not pure healthtech SaaS (different needs).
->
-> Geography: US only currently; expanding to Canada Q4
->
-> Maturity stage: established practice or group, not pre-clinical startup
->
-> Tech stack indicators: existing EHR (Epic, Athena, Cerner, eClinicalWorks). Microsoft 365 or Google Workspace for email.
 
 ---
 
@@ -84,22 +66,6 @@ The specific roles inside an ICP company who buy, influence, and use the product
 
 `[Repeat the structure]`
 
-*Illustrative example:*
-
-> ### Persona 1: Practice administrator (mid-market healthcare org)
->
-> **Owns:** day-to-day operations, vendor management, compliance program oversight.
->
-> **Success metric:** clean audits, no breach incidents, vendor costs in line with budget.
->
-> **Reports to:** practice owner or board. They care about regulatory exposure and operating margin.
->
-> **What they care about:** avoiding regulatory penalties, keeping clinical staff productive, predictable monthly costs.
->
-> **What they don't care about:** technical specifications, theoretical security features that don't show up in an audit.
->
-> **Where they hang out:** MGMA, HFMA, state medical society newsletters, LinkedIn groups for practice administrators.
-
 ---
 
 ## 4. Buying triggers
@@ -112,14 +78,6 @@ The events that move a buyer from "maybe someday" to "I need this now." If you c
 
 **Trigger 3:** `[Event]` `[why it creates urgency]`
 
-*Illustrative example:*
-
-> **Trigger 1: Failed audit or audit prep.** State or federal regulators flag a gap. Suddenly the line item that was deprioritized becomes urgent. Watch for healthcare news mentioning regulatory action.
->
-> **Trigger 2: Breach at a peer.** When a comparable practice gets breached, every practice in their network re-evaluates. Public breach announcements in our space create a 3 to 6 week buying window.
->
-> **Trigger 3: New executive joins.** Incoming compliance officer or practice administrator inherits the email stack and questions it. LinkedIn job changes are the signal.
-
 ---
 
 ## 5. Pain points
@@ -131,14 +89,6 @@ The problems your ICP has that your product solves. Be specific. "Compliance is 
 **Pain 2:** `[Specific pain, in their language]`
 
 **Pain 3:** `[Specific pain, in their language]`
-
-*Illustrative example:*
-
-> **Pain 1:** "Encryption requires patients to log into a portal to read their email. They don't, so they call instead. Compliance solved, productivity broken."
->
-> **Pain 2:** "Audit prep eats 30 to 40 hours per year that should be patient-facing. The compliance team is the same team that handles HR."
->
-> **Pain 3:** "Every vendor wants a BAA, but half of them push back when we send ours. We end up using vendors whose security we don't trust."
 
 ---
 
@@ -154,16 +104,6 @@ The reasons buyers in your ICP don't buy, even when they should. Knowing these i
 
 **The reality:** `[Why this objection is wrong or overblown]`
 
-*Illustrative example:*
-
-> **Objection: "We already use [Microsoft/Google]'s built-in encryption. Isn't that enough?"**
->
-> The reality: portal-based encryption forces patients to a separate login. Drop-off rates are 60 to 80%. Patients call or fax instead, defeating the workflow.
->
-> **Objection: "Our IT team handles this."**
->
-> The reality: most mid-market healthcare orgs have a 1 to 2 person IT team that's overloaded. Adding email security configuration on top of an EHR migration usually means it's deprioritized.
-
 ---
 
 ## 7. Anti-ICP
@@ -175,20 +115,6 @@ Companies that look like they fit but actually don't. Saying yes to anti-ICP cus
 **Why they look like a fit:** `[The superficial signals]`
 
 **Why they aren't a fit:** `[The deeper reasons]`
-
-*Illustrative example:*
-
-> **Anti-ICP: Solo practitioners or under-10-person practices.**
->
-> Why they look like a fit: they're in healthcare, they handle PHI, they need email security.
->
-> Why they aren't a fit: their volume is too low to support our price point, their workflow needs differ from group practices, and our support model doesn't scale down well. Better routed to a partner solution.
->
-> **Anti-ICP: Large hospital systems (1,000+ employees).**
->
-> Why they look like a fit: more PHI, more risk, more email.
->
-> Why they aren't a fit: they have dedicated IT and procurement teams. Our self-serve motion doesn't work. Their security requirements add 6+ month enterprise sales cycles. Better served by enterprise security vendors.
 
 ---
 
