@@ -25,6 +25,10 @@ Artifacts are organized by the issue they shipped with.
 - **[paid-acquisition-build-order.md](paid-acquisition-build-order.md)** — six-layer sequencing template for building a paid acquisition AI employee, one touchpoint at a time
 - **[google-ads-expert-checklist.md](google-ads-expert-checklist.md)** — 27 specific checks a senior Google Ads practitioner runs beyond surface metrics. Drop-in Claude skill
 
+### Issue #4 — You don't graduate past skills
+
+- **[chief-of-staff-starter.md](chief-of-staff-starter.md)** — the manager layer that sits above your other agents: the one dispatch rule, the surface/silent line, the daily brief format, and a starter prompt you can paste
+
 More artifacts coming as new issues ship.
 
 ## Why this exists
